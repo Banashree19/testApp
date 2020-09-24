@@ -1,0 +1,159 @@
+*{
+	margin:0px;
+	padding: 0px;	
+}
+.navbar{
+	background:white
+	
+}
+.navbar-brand img{
+	height: 40px;
+	padding-left: 120px;
+}
+
+.navbar-nav li{
+	padding:0 5px ;
+
+}
+.navbar-nav li a{
+	color: seagreen;
+	font-weight: 600;
+}
+
+.navbar-toggler{
+	background: darkorange;
+}
+/*Banner*/
+
+.img-container{
+	background-image:url("./images/img6.jpeg");
+	background-attachment:fixed ;
+	height: 500px;
+	overflow: hidden;
+	position: relative;;
+	background-size: cover;
+	
+
+}
+
+.inner-container{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+
+.inner-container h1{
+	font-size: 72px;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
+
+/* Context*/
+.divider{
+ padding-top: 30px;
+}
+
+
+.col-md-5 img{
+	width: 50%;
+	margin-left: 302px;
+    border-radius: 35px;
+}
+
+.text{
+	margin: 70px;
+	text-align: center;
+	color:rgb(0, 149, 37)
+}
+
+.maping-image img{
+	width: 50%;
+	margin: 1px auto;
+	display: block;
+}
+.para-text{
+	
+	text-align: center;
+
+
+} 
+.paragraph-text{
+color:rgb(0, 149, 37);
+margin: 25px;
+
+}
+
+.text-container{
+	text-align: center;
+	background:lightcoral;
+}
+.green-container{
+	padding: 20px;
+	justify-content: space-around;
+	display: flex;
+	
+}
+
+.Team h1{
+	text-align: center;
+	padding-top: 10px;
+}
+.container{
+	margin-top: 8%;
+}
+.inner{
+	overflow: hidden;
+}
+.inner img{
+	transition:all 1.5s ease ;
+}
+
+.inner:hover img{
+	transform:scale(1.5);
+}
+
+.memo img{
+	margin-top:8%;
+	height: 140px;
+	padding-left:750px;
+}
+
+.test45{
+	
+	text-align: center;
+}
+
+.text24{
+	text-align: center;
+	color: lime;
+}
+
+.text21{
+	text-align: center;
+}
+
+.text20{
+	text-align: center;
+}
+
+.footer{
+	background:url("./images/pic2.jpeg");
+	width: 100%;
+	background-size: cover;
+	background-attachment:fixed ;
+	margin-top: 5%;
+}
+
+
+
+
+
+
+
